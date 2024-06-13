@@ -1,0 +1,42 @@
+// .video-carousel {
+//     .slick-slider {
+//       position: relative;
+//       .slick-list {
+//         overflow: hidden;
+//         .slick-track {
+//           display: flex;
+//           flex-direction: column;
+//           .video-slide {
+//             position: relative;
+//             video {
+//               width: 100%;
+//               height: auto;
+//               outline: none;
+//               border: 1px solid #ddd; /* Example border style */
+//               border-radius: 5px; /* Example border-radius */
+//             }
+//             .reaction-buttons {
+//               display: flex;
+//               justify-content: space-between;
+//               align-items: center;
+//               margin-top: 10px;
+//               button {
+//                 display: flex;
+//                 align-items: center;
+//                 background: none;
+//                 border: none;
+//                 cursor: pointer;
+//                 &:focus {
+//                   outline: none;
+//                 }
+//                 span {
+//                   margin-left: 5px;
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+  

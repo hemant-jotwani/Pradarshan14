@@ -1,0 +1,42 @@
+.videoSectionOption {
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+  position: relative;
+}
+
+.videoSectionOption__title {
+  position: absolute;
+
+  z-index: 10;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.videoSectionOption__player {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
+
+.videoSectionOption__options {
+  padding: 5px;
+  position: absolute;
+  bottom: 50px;
+  right: 2%;
+  z-index: 10;
+  height: 40vh;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+}
+
+.videoSectionOption__progress-bar {
+  width: 95%;
+  height: 2%;
+
+  position: absolute;
+  bottom: 3%;
+  left: 3%;
+}

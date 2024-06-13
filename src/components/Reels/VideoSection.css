@@ -1,0 +1,30 @@
+.videoSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .videoSection__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .videoSection__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    scroll-snap-align: start;
+    overflow: hidden;
+  }
+  
+  .videoSection__video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
